@@ -1,0 +1,98 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#loginPage{
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100vh;
+    width: 115vw;  
+    display: flex;
+}
+
+
+#log-in{
+    width: 500vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#log-in form{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+
+#log-in form h2{
+    font-weight: 600;
+    font-size: 90px;
+}
+
+#log-in form h4{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#log-in form .log-info{
+    display: flex;
+    flex-direction: column;
+}
+
+#log-in form .log-info label{
+    font-size: 16px;
+}
+
+#log-in form .log-info #first-one{
+    margin-top: 28px;
+}
+
+#log-in form .log-info input{
+    font-size: 14px;
+    height: 30px;
+    padding: 0px 4px;
+    outline: none;
+    border: 1px solid rgb(7, 6, 6);
+    border-radius: 6px;
+}
+
+#log-in form button{
+    height: 32px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#log-in form button:hover{
+    transform: scale(1.02);
+}
+
+#log-in form #sign-in-btn{
+    background-color: #eb1f04;
+    color: #07070a;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+#log-in form p #link-registro{
+    text-decoration: none;
+    color: #0b92e0;
+    font-weight: 400;
+}
+
+#log-in form h2,
+#log-in form h4,
+#log-in form .log-info label,
+#log-in form .log-info input,
+
+#log-in form p{
+    margin: 6px 0px;
+}
+
+
+#loginPage #image{
+    width: 50vw;
+    height: 100vh;
+}

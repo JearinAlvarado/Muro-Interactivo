@@ -1,0 +1,89 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#registerPage{
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100vh;
+    width: 100vw;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c0b0b;
+}
+
+
+
+#register-form{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border-radius: 5px;
+    padding: 25px;
+    background-color: #0a7ff3;
+}
+
+#register-form h2{
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+}
+
+#register-form h4{
+    font-weight: 200;
+    font-size: 16px;
+}
+
+#register-form .register-info{
+    display: flex;
+    flex-direction: column;
+}
+
+#register-form .register-info label{
+    font-size: 16px;
+}
+
+#register-form .register-info #first-one{
+    margin-top: 24px;
+}
+
+#register-form .register-info input{
+    font-size: 14px;
+    height: 30px;
+    padding: 0px 4px;
+    outline: none;
+    border: 1px solid rgb(188, 184, 184);
+    border-radius: 6px;
+}
+
+#register-form .register-info #photo{
+    border: none;
+}
+
+#register-form button{
+    height: 32px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#register-form button:hover{
+    transform: scale(1.02);
+}
+
+#register-form #register-btn{
+    background-color: #e74809;
+    color: #fff;
+}
+
+#register-form h2,
+#register-form h4,
+#register-form .register-info label,
+#register-form .register-info input,
+#register-form button{
+    margin: 4px 0px;
+}

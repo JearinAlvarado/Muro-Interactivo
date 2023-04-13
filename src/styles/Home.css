@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#HomePage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#HomePage #Content{
+    display: flex;
+    flex-direction: row;
+}
+
+#HomePage #profile{
+    width: 20%;
+    margin-top: 2%;
+    margin-left: 2.5%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    border-radius: 8px;
+    background-color: #dfdcdc;
+}
+
+#HomePage #profile #content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#HomePage #profile #content img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+
+#HomePage #profile #content p{
+    font-size: 20px;
+}
+
+#HomePage #profile #buttons{
+    margin-top: 15px;
+}
+
+#HomePage #profile #buttons button{
+    color: #020101;
+    margin: 10px 8px 6px 8px;
+    padding: 4px 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+#HomePage #profile #buttons button:hover{
+    transform: scale(1.05);
+}
+
+#HomePage #profile #buttons button:first-child{
+    background-color: #02f502;
+}
+
+#HomePage #profile #buttons button:last-child{
+    background-color:rgb(233, 7, 7);
+}
+
+
+#HomePage #posts{
+    width: 75%;
+    margin: 2% 0;
+}
+
+#HomePage #posts #post{
+    width: 70%;
+    background-color: #0b0b0c;
+    border-radius: 8px;
+    display: grid;
+    align-content: flex-start;
+    word-wrap: break-word;
+    margin: 20px auto 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#HomePage #posts #post #post_profile{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+#HomePage #posts #post #post_profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+#HomePage #posts #post #foto_post{
+    justify-self: center;
+    height: 250px;
+    object-fit: cover;
+    justify-self: center;
+    margin-bottom: 20px;
+}
+
+#HomePage #posts #post p{
+    text-align: justify;
+    width: auto;
+    height: auto;
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+
+#HomePage #posts-notLogin{
+    width: 85%;
+    height: 67%;
+    border-radius: 8px;
+    display: grid;
+    align-content: flex-start;
+    word-wrap: break-word;
+    margin: 20px auto 0px auto;
+    justify-content: center;
+}
+
+#HomePage #posts-notLogin #post{
+    background-color: #000203;
+    padding: 0px 140px 0px 140px;
+    margin-top: 12px;
+}
+
+#HomePage #posts-notLogin #post_profile{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+#HomePage #posts-notLogin #post_profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+#HomePage #posts-notLogin #foto_post{
+    justify-self: center;
+    height: 250px;
+    object-fit: cover;
+    justify-self: center;
+    margin-bottom: 20px;
+}
+
+#HomePage #posts-notLogin p{
+    text-align: justify;
+    width: auto;
+    height: auto;
+    font-size: large;
+    padding-bottom: 10px;
+}
